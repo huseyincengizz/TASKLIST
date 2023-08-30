@@ -12,6 +12,12 @@ function TaskCreate({ onCreate, task, updateTaskForm, onUpdate }) {
   };
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    if (!title || !taskDesc) {
+      alert("Lütfen tüm alanları eksiksiz doldurunuz!");
+      return;
+    }
+
     if (updateTaskForm) {
       onUpdate(task.id, title, taskDesc);
     } else {
