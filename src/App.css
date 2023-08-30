@@ -117,3 +117,14 @@ textarea{
   border: 1px solid black;
   border-radius: 10px;
 }
+@media only screen and (max-width: 450px) {
+  .app{
+    margin: 0 auto;
+  }
+  .taskFormArea{
+    width: 100%;
+  }
+  .taskShow{
+    width: 100%;
+  }
+}
