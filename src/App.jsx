@@ -8,11 +8,11 @@ export default function App(){
 
   const createTask = (title, textArea) =>{
     const taskLists = [
-      ...tasks, {
+      {
         id: Math.round(Math.random()*9999),
         title,
         textArea
-      }
+      },...tasks
     ]
     setTasks(taskLists)
     console.log(taskLists)
