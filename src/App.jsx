@@ -1,5 +1,5 @@
 import './App.css'
-import TaskForm from './taskForm'
+import TaskForm from './TaskForm'
 import { useState } from 'react'
 import TaskList from './TaskList'
 
