@@ -65,9 +65,6 @@ textarea{
 .taskShow h2{
   text-shadow: 1px 2px 4px orangered;
 }
-.taskShow p{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 .updateButton{
   background-color: #54B435;
   color: #FFF;
